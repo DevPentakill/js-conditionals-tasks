@@ -12,13 +12,15 @@ also, write it using ternary operator.
  */
 
 const num1 = 34;
-const num2 = 12;
-const result;
+const num2 = 122;
+let result = 0;
 
-if (num1>num2){
-    result = num1*2;
-    console.log(result);
-}else{
-    result = num1+num2;
-    console.log(result);
-}
+// if (num1>num2){
+//     result = num1*2;
+//     console.log(result);
+// }else{
+//     result = num1+num2;
+//     console.log(result);
+// }
+
+num1>num2 ? console.log(result = num1*2):console.log(result = num1+num2)
