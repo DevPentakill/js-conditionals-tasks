@@ -10,3 +10,15 @@ write a simple if-else.
 also, write it using ternary operator.
 
  */
+
+const num1 = 34;
+const num2 = 12;
+const result;
+
+if (num1>num2){
+    result = num1*2;
+    console.log(result);
+}else{
+    result = num1+num2;
+    console.log(result);
+}
