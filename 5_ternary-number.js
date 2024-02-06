@@ -23,4 +23,6 @@ let result = 0;
 //     console.log(result);
 // }
 
+// TERENARY VErsion
+
 num1>num2 ? console.log(result = num1*2):console.log(result = num1+num2)
